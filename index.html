@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./src/imagens/favicon-32x32.png" type="image/x-icon">
+  <title>Italo Maia - Front-end</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <link rel="stylesheet" href="src/css/variaveis.css">
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+
+  <!-- Seções -->
+  <link rel="stylesheet" href="src/css/header.css">
+  <link rel="stylesheet" href="src/css/home.css">
+  <link rel="stylesheet" href="src/css/sobre.css">
+  <link rel="stylesheet" href="src/css/habilidades.css">
+  <link rel="stylesheet" href="src/css/projetos.css">
+  <link rel="stylesheet" href="src/css/footer.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">&lt;/&gt; Italo Maia</h1>
+        </a>
+
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Italo Maia</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/italo-barbosa-maia-8b98b822a/" target="_blank" class="outer-shadow">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5531992822389&text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20seus%20projetos%20%F0%9F%98%80"
+              target="_blank" class="outer-shadow">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/Italo-Maia" target="_blank" class="outer-shadow">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/italomaia310/" target="_blank" class="outer-shadow">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img src="./src/imagens/iii.jpeg" alt="foto do perfil" class="outer-shadow">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="./src/imagens/iii.jpeg" alt="foto do perfil" class="outer-shadow">
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Italo Barbosa Maia e sou um desenvolvedor frontend em
+              formação!</strong>
+            Sou apaixonado pela área de tecnologia, entusiasta em Front-End, me especializando em construir sites,
+            aplicativos, e todas as coisas dentro desse universo para poder contribuir em qualquer time com as minhas
+            habilidades.
+          </p>
+
+          <p>
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar
+            feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
+            aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, desenhos animados e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="https://drive.google.com/file/d/1SzLdhrOtxMFq67GBiOBVdmMKd0WXxf_N/view?usp=sharing" target="_blank" class="botao outter-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-habilidades row">
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-html5-plain-wordmark"></i>
+        </div>
+        <h3>HTML5</h3>
+        <p>Tenho conhecimento semântico avançado em HTML. Conheço as principais funcionalidades das tags semânticas mais
+          utilizadas na contrução de sites.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-css3-plain-wordmark"></i>
+        </div>
+        <h3>CSS3</h3>
+        <p>Possuo uma base sólida nos conceitos de flexbox, me especializando em CSS Grid.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-javascript-plain"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p>Tenho uma base sólida de JS. Já entendo bem conceitos como callbacks, promisses, async/await, consumo de
+          APIs,
+          destructuring, spread operators, dentre outros. </p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-react-plain"></i>
+        </div>
+        <h3>React JS</h3>
+        <p>Possuo uma boa base nos conceitos.Tenho conhecimento em ciclos de vida dos componentes, context API, requisições GET e envio de requisições POST. Atualmente
+          me desenvolvendo em TailwindCSS e em testes de projeto. </p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-github-original"></i>
+        </div>
+        <h3>GitHub</h3>
+        <p>Tenho conhecimento nas principais funcionalidades do GitHub, que é um serviço de hospedagem na Web para
+          repositórios git.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-git-plain"></i>
+        </div>
+        <h3>Git</h3>
+        <p>Entendo os conceitos de estados de arquivos, sua história, versionamento de código e os principais comandos
+          funcionais.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-typescript-plain"></i>
+        </div>
+        <h3>Typescript</h3>
+        <p>Possuo uma base nos conceitosdo typescript, nos comandos, types literais, watchMode, escolha de quais arquivos compilar e nos conceitos de noComment, noEmit e noEmitOnError</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-sass-plain"></i>
+        </div>
+        <h3>Sass</h3>
+        <p>Tenho conhecimento intermediário neste pré-processador CSS, conheço as principais funcionalidades, dentre elas, variáveis, grupos de elementos, operações matemáticas, hover e uma breve noção de Webpack.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-bootstrap-plain"></i>
+        </div>
+        <h3>Bootstrap</h3>
+        <p>Atualmente estou em desenvolvimento nos conceitos para a utilização com maior eficiência e eficácia.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-jquery-plain"></i>
+        </div>
+        <h3>Jquery</h3>
+        <p>Tenho noção sobre suas principais funcionalidades e aplicações.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus Projetos</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-projetos container">
+      <div class="projeto">
+        <a href="https://italo-maia.github.io/agencia-xpto/" target="_blank">
+          <img src="./src/imagens/image-xptopng.png" alt="Agencia XPTO">
+          <h3>Agência XPTO</h3>
+          <div class="informacoes-projeto">
+            <p>O projeto tem como inspiração a criação de uma Landing page com HTML, CSS e Javascript.</p>
+            <p>🔗 Ir para o projeto</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="https://italo-maia.github.io/projeto-site-compra-de-pizzas/" target="_blank">
+          <img src="./src/imagens/----.png" alt="Compra de pizzas">
+          <h3>Compra de pizzas</h3>
+          <div class="informacoes-projeto">
+            <p>O projeto tem como inspiração a criação de um carrinho de compras em um site de pizzaria simulado.</p>
+            <p>🔗 Ir para o projeto</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="https://italo-maia.github.io/react-calc-imc/" target="_blank">
+          <img src="./src/imagens/Screenshot_1.png" alt="Calculadora de IMC">
+          <h3>Calculadora de IMC</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto em React + TypeScript construindo uma calculadora de IMC.</p>
+            <p>🔗 Ir para o projeto</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="https://italo-maia.github.io/projeto-hotel-paraiso/" target="_blank">
+          <img src="./src/imagens/hotelp.png" alt="Hotel Paraíso">
+          <h3>Hotel Paraíso</h3>
+          <div class="informacoes-projeto">
+            <p>O projeto tem como inspiração um layoult completo de um site de hotel e tem como intenção praticar as habilidades com flexbox.</p>
+            <p>🔗 Ir para o projeto</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/italo-barbosa-maia-8b98b822a/" target="_blank" class="outer-shadow">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5531992822389&text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20seus%20projetos%20%F0%9F%98%80"
+        target="_blank" class="outer-shadow">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://github.com/Italo-Maia" target="_blank" class="outer-shadow">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/italomaia310/" target="_blank" class="outer-shadow">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
